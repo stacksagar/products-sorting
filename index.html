@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="src/css/quicstar.css">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="nav">
+    <img src="src/images/stackLogo.png" alt="">
+    <div class="navItems">
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+    </div>
+    <a class="navGit gitLink">
+      <i class="fab fa-github"></i> View Github </a>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- products  -->
+  <section id="products" class="products">
+    <div class="sortBy">
+      <p class="sortByTitle">Sort By <span class="openAngle"><i class="fas fa-angle-down"></i></span> </p>
+      <div class="sortOption">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="products-container"></div>
+  </section>
+  <!-- products end -->
+  <img src="src/images/loading.gif" alt="" id="loading">
+  <div class="fixedName sorting"> </div>
+
+  <script src="src/js/all.min.js"></script>
+  <script src="dist/sorting.js"></script>
+
+</body>
+
+</html>
